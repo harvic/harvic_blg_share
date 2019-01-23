@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/linear_activity_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LinearLayoutManager"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/grid_activity_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GridLayoutManager"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/stagger_activity_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="StaggeredGridLayoutManager"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/diff_item_activity_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="加载不同item类型"
+            android:padding="10dp"/>
+
+
+        <Button
+            android:id="@+id/custom_activity_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CustomLayoutManager"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/recycled_activity_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="回收复用的LayoutManager"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/first_remould_recycled_activity_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="第一次改造LayoutManager"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/second_remould_recycled_activity_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="第二次改造LayoutManager"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/cover_flow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RecyclerView画廊"/>
+
+    </LinearLayout>
+
+</ScrollView>
